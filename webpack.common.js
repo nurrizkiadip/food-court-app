@@ -61,18 +61,4 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
   ],
-  resolve: {
-    fallback: {
-      // "fs": require.resolve('fs/'),
-      // util: require.resolve('util/'),
-      // url: require.resolve('url/'),
-      // 'path': require.resolve('path-browserify'),
-      // assert: require.resolve('assert/'),
-      // fs: false,
-      // util: false,
-      // url: false,
-      // path: false,
-      // assert: false,
-    },
-  },
 };
